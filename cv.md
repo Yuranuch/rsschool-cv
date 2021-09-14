@@ -1,6 +1,14 @@
+
 # Hello! My name is Tsickhanovich Yura.
 
-I'm junior front-end developer.
+### I'm junior front-end developer.
+
+## My contacts:
+
+* +(375)29 8228833
+* yura477573@mail.ru
+
+## Information about:
 
 For almost 14 years I have worked in the food trade. And then I realized that I do not like this work anymore).
 
