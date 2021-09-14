@@ -1,4 +1,4 @@
-Hello! My name is Tsickhanovich Yura.
+# Hello! My name is Tsickhanovich Yura.
 
 I'm junior front-end developer.
 
@@ -15,15 +15,31 @@ I also completed a 6-month react study course. After the courses I got a job as 
 in Moscow IT company 'MAP', I work the for 6 month. Then I canged my job and got a job as a devoleper
 in Minsk IT company 'Abiatech'. I'm still working here.
 
-My Education.
+## My Education:
 
-In 2008 I graduated from the Brest Polytechnic University with a degree in Economics and Enterprise Management.
+* In 2008 I graduated from the Brest Polytechnic University with a degree in Economics and Enterprise Management.
 
-I finished react and redux curse in 2019.
+* I finished react and redux curse in 2019.
 
-Now Im going to finish JS RS-course.
+* Now Im going to finish JS RS-course.
 
-Here is an example of my code:
+## Here is an example of my code:
+
+### Find the smallest integer in the array:
+
+```javascript
+class SmallestIntegerFinder {
+   findSmallestInt(args) {
+      let args2 = Math.min(...args);
+      return args2
+   }
+}
+```
+## My favorite quote:
+
+>Never, never, never give up!
+
+**Winston Churchill**
 
 I prefer a healthy lifestyle like traveling, biking, football.
 
