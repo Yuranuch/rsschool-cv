@@ -14,13 +14,13 @@ For almost 14 years I have worked in the food trade. And then I realized that I 
 
 I changed my direction of activity and became a professional web developer.
 
-From 2015-2018, I worked part-time on freelance, as a site layout specialist. 
+From 2015-2019, I worked part-time on freelance, as a site layout specialist. 
 
 Then I began to study the react and redux, I really liked it, reviewed many 
 videos and read the documentation.
 
-I also completed a 6-month react study course. After the courses I got a job as a developer
-in Moscow IT company 'MAP', I work the for 6 month. Then I canged my job and got a job as a devoleper
+I also completed a 7-month react study course. After the courses I got a job as a developer
+in Moscow IT company 'MAP', I work the for 6 month. Then I canged my it and got a job as a front-end devoleper
 in Minsk IT company 'Abiatech'. I'm still working here.
 
 ## My Education:
