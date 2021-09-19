@@ -433,6 +433,20 @@ h3 {
    width: 55px;
 }
 
+.burger {
+   display: none;
+   width: 30px;
+   height: 30px;
+   cursor: pointer;
+}
+.burger span {
+   display: block;
+   height: 5px;
+   margin-bottom: 3px;
+   background-color: #ffffff;
+}
+
+
 @media (max-width: 1024px) {
    .main-info {
       flex: 1 1 60%;
@@ -493,6 +507,17 @@ h3 {
    }
    .rs-logo {
       width: 30px; 
+   }
+   .header {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+   }
+   .menu {
+      display: none;
+   }
+   .burger {
+      display: block;
    }
  }
  @media (max-width: 374px) {
