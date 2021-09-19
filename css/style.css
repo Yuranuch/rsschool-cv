@@ -126,16 +126,22 @@ h3 {
 }
 
 .menu {  
-   width: 1024px;
+   max-width: 1200px;
    margin: 0 auto;
 }
 
 .content {
-   width: 1024px;
+   max-width: 1200px;
    margin: 0 auto;
    position: relative;
    display: flex;
+   padding-top: 150px;
+   padding-bottom: 80px;
+   justify-content: space-between;
+   flex: 0 0 100%;
+   align-items: center;
 }
+
 
 .menu ul {
    display: flex;
@@ -158,9 +164,6 @@ h3 {
 }
 
 .section {
-   padding-top: 150px;
-   padding-bottom: 80px;
-   position: relative;
    color: #ffffff;
    font-weight: 600;
    font-size: 35px;
@@ -191,9 +194,11 @@ h3 {
 .section-main {
    display: flex;
    align-items: center;
+   
+}
+.content-main {
    height: 100vh;
 }
-
 .main-info {
    flex: 0 0 70%;
    color: #ffffff;
@@ -220,7 +225,7 @@ h3 {
    width: 250px;
    height: 25px;
    bottom: 20px;
-   left: -15px;
+   left: -10px;
    background: rgba(125, 16, 234, 1);
    -webkit-box-shadow: 0px 0px 9px 0px rgba(125, 16, 234, 0.9);
    -moz-box-shadow: 0px 0px 9px 0px rgba(125, 16, 234, 0.9);
@@ -356,7 +361,8 @@ h3 {
 .section-contacts {
    background-color: #171318;
    height: auto;
-   display: flex;
+}
+.section-contacts .container {
    justify-content: space-between;
 }
 
@@ -392,13 +398,19 @@ h3 {
 .footer {
    height: 60px;
    background: rgba(0,0,0,.8);
-   display: flex;
+}
+.footer-content {
+   max-width: 1200px;
+   margin: 0 auto;
+   position: relative;
+   display: flex; 
    align-items: center;
    justify-content: space-between;
    font-size: 16px;
    font-weight: 400;
    color: #ffffff;
    padding: 0 30px;
+   height: 100%;
 }
 
 .githab-link {
@@ -420,3 +432,77 @@ h3 {
    display: block;
    width: 55px;
 }
+
+@media (max-width: 1024px) {
+   .main-info {
+      flex: 1 1 60%;
+   }
+   .main-photo {
+      flex: 1 1 30% 
+   }
+   .my-name-title:before {
+      left: 5px;
+   }
+ }
+ @media (max-width: 768px) {
+   .content-main {
+      padding-top: 100px;
+      height: auto;
+      flex-direction: column !important;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 110px;
+      min-height: 100%;
+   }
+   .main-info {      
+      text-align: center;
+      padding-bottom: 70px;
+   }
+   .greating-title {
+      font-size: 18px;
+   }
+   .my-name-title {
+      font-size: 32px;
+   }
+   .my-profession-title {
+      font-size: 22px;
+   }
+   .my-name-title:before {
+      width: 150px;
+      height: 10px;
+      bottom: 25px;
+      left: 5px;
+   }
+   .skills-list li{
+      width: 50%; 
+   }
+   
+   .works-list li {
+      padding: 5px;
+      width: 100%;
+   }
+   .work-item {
+      width: 100%;
+      border: 2px solid #ffffff;
+   }
+   .contacts-fun {
+      display: none;
+   }
+   .githab-link {
+      width: 30px;
+   }
+   .rs-logo {
+      width: 30px; 
+   }
+ }
+ @media (max-width: 374px) {
+   .skills-list li{
+      width: 100%; 
+   }
+   .photo-container {
+      border: 5px solid #ffffff;
+   }
+   .photo-container:before {
+      display: none;
+   }
+ }
