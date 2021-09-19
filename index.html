@@ -5,29 +5,40 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>CV</title>
+   <link rel="stylesheet" href="/path/to/styles/default.css">
+<script src="/path/to/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
    <link href="css/style.css" rel="stylesheet">
    <link rel="preconnect" href="https://fonts.googleapis.com">
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;600;700&display=swap" rel="stylesheet">
+
+
 </head>
    <body>
       <div class="container-wrap">
       <header class="header">
          <nav class="menu">
             <ul>
-            <li><a href="#head1">Main</a></li>
-            <li><a href="#head2">My Skils</a></li>
-            <li><a href="#head3">My Works</a></li>
-            <li><a href="#head4">About Me</a></li>
-            <li><a href="#head5">Contacts</a></li>
+               <li><a href="#head1">Main</a></li>
+               <li><a href="#head2">My Skils</a></li>
+               <li><a href="#head3">My Works</a></li>
+               <li><a href="#head4">About Me</a></li>
+               <li><a href="#head5">Contacts</a></li>
             </ul>
          </nav>
-         <div id="burger" class="burger">
+         <div id="burger" onclick="openbox('burger-nav')" class="burger">
             <span></span>
             <span></span>
             <span></span>
          </div>
-         <div id="burger-nav" class="burger-nav"></div>
+            <ul id="burger-nav" style="display: none;" class="burger-nav">
+               <li><a class="nav-link" href="#head1">Main</a></li>
+               <li><a class="nav-link" href="#head2">My Skils</a></li>
+               <li><a class="nav-link" href="#head3">My Works</a></li>
+               <li><a class="nav-link" href="#head4">About Me</a></li>
+               <li><a class="nav-link" href="#head5">Contacts</a></li>
+            </ul>
       </header>
          <main>
             <section id="head1" class="section section-main">
@@ -70,37 +81,61 @@
                      <li>
                         <a href="https://github.com/Yuranuch/Events" class="work-item">
                            <img src="img/project_10.fcf349b1.jpg" alt="">
-                           <span class="work-title">Event location</span>
+                           <div class="description-info">
+                              <span class="work-title">Event location</span>
+                              <span class="description">List of interesting events</span>
+                              <span class="program-use"><span>CSS</span><span>HTML</span><span>BEM</span><span>Jquery</span></span>
+                           </div>
                         </a>
                      </li>
                      <li>
-                        <a href="https://yuranuch.github.io/Kinopoisk/#/" class="work-item">
+                        <a href="https://github.com/Yuranuch/Kinopoisk" class="work-item">
                            <img src="img/project_1.8e88e0d7.jpg" alt="">
-                           <span class="work-title">Movie-finder</span>
+                           <div class="description-info">
+                              <span class="work-title">Movie-finder</span>
+                              <span class="description">Looking for a movie based on your query</span>
+                              <span class="program-use"><span>React</span> <span>Redux</span> <span>React-redux</span><span> Redux-forms</span></span>
+                           </div>
                         </a>
                      </li>
                      <li>
                         <a href="https://github.com/Yuranuch/News_page" class="work-item">
                            <img src="img/project_7.45f7e5fa.jpg" alt="">
-                           <span class="work-title">Loginization</span>
+                           <div class="description-info">
+                              <span class="work-title">Loginization</span>
+                              <span class="description">Fake loginization on the site</span>
+                              <span class="program-use"><span>React</span><span>Redux</span></span>
+                           </div>
                         </a>
                      </li>
                      <li>
                         <a href="https://github.com/Yuranuch/adv" class="work-item">
                            <img src="img/project_11.378a1416.jpg" alt="">
-                           <span class="work-title">By tools</span>
+                           <div class="description-info">
+                              <span class="work-title">By tools</span>
+                              <span class="description">Help in choosing the best tool</span>
+                              <span class="program-use"><span>SASS</span><span>Grid</span><span>Flex</span><span>BEM</span><span>Jquery</span><span>Js</span><span>Figma</span></span>
+                           </div>
                         </a>
                      </li>
                      <li>
                         <a href="https://github.com/Yuranuch/TodoList-AJAX" class="work-item">
                            <img src="img/project_3.f950e8dd.jpg" alt="">
-                           <span class="work-title">ToDoList</span>
+                           <div class="description-info">
+                              <span class="work-title">ToDoList</span>
+                              <span class="description">Helps you plan your day</span>
+                              <span class="program-use"><span>React</span><span>Redux</span><span>Redux forms</span></span>
+                           </div>
                         </a>
                      </li>
                      <li>
                         <a href="https://github.com/Yuranuch/payment_form" class="work-item">
                            <img src="img/project_9.9751d8c4.jpg" alt="">
-                           <span class="work-title">Pay-form</span>
+                           <div class="description-info">
+                              <span class="work-title">Pay-form</span>
+                              <span class="description">Working with the API fills in the user's data</span>
+                              <span class="program-use"><span>React</span><span>Formik</span><span>SASS</span></span>
+                           </div>
                         </a>
                      </li>
                   </ul>
@@ -122,6 +157,8 @@
                      <p>In 2008 I graduated from the Brest Polytechnic University with a degree in Economics and Enterprise Management.</p>
                      <p>I finished react and redux curse in 2019.</p>
                      <p>Now Im going to finish JS RS-course.</p>
+                     <h3>Here is an example of my code</h3>
+                     <pre><code class="language-html">...</code></pre>
                      <p>I prefer a healthy lifestyle like traveling, biking, football</p>
                      <p>My English is at a2 level, but I improve it every day.</p>
                   </article>
@@ -159,7 +196,6 @@
             </div>
          </footer>
       </div>
-      <script src="js/jquery.min.js"></script>
       <script src="js/main.js"></script>
    </body>
 </html>
