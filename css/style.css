@@ -352,6 +352,7 @@ h3 {
    font-weight: 600;
    padding-bottom: 10px;
 }
+
 .description {
    font-size: 14px;
    color: #ffffff;
@@ -359,12 +360,14 @@ h3 {
    font-weight: 400;
    padding-bottom: 10px;
 }
+
 .program-use {
    font-size: 16px;
    display: block;
    font-weight: 400;
    color: #ffffff;
 }
+
 .program-use span {
    background: rgba(125, 16, 234, 1);
    margin: 5px;
@@ -425,6 +428,7 @@ h3 {
    height: 60px;
    background: rgba(0,0,0,.8);
 }
+
 .footer-content {
    max-width: 1200px;
    margin: 0 auto;
@@ -439,17 +443,17 @@ h3 {
    height: 100%;
 }
 
-.githab-link {
+.github-link {
    display: flex;
    width: 50px;
    align-items: center;
 }
 
-.githab-link a {
+.github-link a {
    font-size: 18px;
 }
 
-.githab-link span {
+.github-link span {
    padding-left: 20px;
    color: #ffffff;
 }
@@ -465,12 +469,14 @@ h3 {
    height: 30px;
    cursor: pointer;
 }
+
 .burger span {
    display: block;
    height: 5px;
    margin-bottom: 3px;
    background-color: #ffffff;
 }
+
 .burger-nav {
    top: 60px;
    position: absolute;
@@ -478,11 +484,13 @@ h3 {
    background: rgba(0, 0, 0, 0.8);
    padding-bottom: 40px;
 }
+
 .burger-nav li {
    width: 100%;
    text-align: center;
    height: 100%;
 }
+
 .burger-nav li a {
    text-decoration: none;
    color: #ffffff;
@@ -492,18 +500,20 @@ h3 {
 
 }
 
-
 @media (max-width: 1024px) {
    .main-info {
       flex: 1 1 60%;
    }
+
    .main-photo {
       flex: 1 1 30% 
    }
+
    .my-name-title:before {
       left: 5px;
    }
  }
+
  @media (max-width: 768px) {
    .content-main {
       padding-top: 100px;
@@ -514,16 +524,20 @@ h3 {
       padding-bottom: 110px;
       min-height: 100%;
    }
+
    .main-info {      
       text-align: center;
       padding-bottom: 70px;
    }
+
    .greating-title {
       font-size: 18px;
    }
+
    .my-name-title {
       font-size: 32px;
    }
+
    .my-profession-title {
       font-size: 22px;
    }
@@ -533,6 +547,7 @@ h3 {
       bottom: 25px;
       left: 5px;
    }
+
    .skills-list li{
       width: 50%; 
    }
@@ -541,16 +556,20 @@ h3 {
       padding: 5px;
       width: 100%;
    }
+
    .work-item {
       width: 100%;
       border: 2px solid #ffffff;
    }
+
    .contacts-fun {
       display: none;
    }
-   .githab-link {
+
+   .github-link {
       width: 30px;
    }
+
    .rs-logo {
       width: 30px; 
    }
@@ -559,32 +578,42 @@ h3 {
       align-items: center;
       justify-content: center;
    }
+
    .menu {
       display: none;
    }
+
    .burger {
       display: block;
    }
+
  }
  @media (max-width: 374px) {
    .skills-list li{
       width: 100%; 
    }
+
    .photo-container {
       border: 5px solid #ffffff;
    }
+
    .photo-container:before {
       display: none;
    }
+
+    .github-link span {
+      display: none;
+    }
  }
+
 .code {
    background: black;
    padding: 20px;
    margin-bottom: 10px;
 }
+
 .language-js {
    font-size: 14px;
    font-weight: 400;
    color: #ffffff;
-
 }
